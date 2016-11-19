@@ -1,0 +1,4 @@
+1. What happens when you initialize a repository? Why do you need to do it?
+
+When I initialize a repository a .git folder is created. We need a repository to
+maintain and create commits.
