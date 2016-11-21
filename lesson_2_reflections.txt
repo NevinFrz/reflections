@@ -7,4 +7,28 @@ maintain and create commits.
 What value do you think it offers?
 
 Working directory contains all the files whereas the staging area contains only
-the files that where added to be commited. Repository contains all the files.
+the files that where added to be commited. Repository contains all the commits of
+each file.
+
+3. How can you use the staging area to make sure you have one commit per logical
+change?
+
+Add only the files that are relevant per logical change.
+
+4. What are some situations when branches would be helpful in keeping your history
+organized? How would branches help?
+
+Helps me to create new features, try out experimental features. Branches help to
+maintain different copies of the main project with experimental features without affecting
+the main project.
+
+5. What is the result of merging two branches together? Why do we represent it
+in the diagram the way we do?
+
+All changes from different branches where merged together. Diagrams are used to
+easily understand.
+
+6. What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+ Automatic merging wont help cause git doesn't know the best things to merge. when
+ it is manually merged the developers know what to keep and what not to
